@@ -4,6 +4,11 @@ on:
   push:
     branches: [ main ]
 
+env:
+  COLUMNS: 160
+  LINES: 25
+
+
 jobs:
   kedro_rich:
     name: kedro_rich_run_and_test
